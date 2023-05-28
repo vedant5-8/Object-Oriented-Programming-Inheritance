@@ -2,6 +2,10 @@
 
 namespace Object_Oriented_Programming_Inheritance
 {
+    /* Multi-level inheritance: A derived class that inherits from a base 
+     * class and the derived class itself becomes the base class for another 
+     * derived class.
+     */
     internal class BOI
     {
         public double rate_boi = 6.5;

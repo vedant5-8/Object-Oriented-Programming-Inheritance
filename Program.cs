@@ -28,7 +28,17 @@ namespace Object_Oriented_Programming_Inheritance
             Console.WriteLine("Your amount according to Union Bank of India policies after {0} years will be {1}.", years, sbi.CalculateUnionBalance(amount, years));
             Console.WriteLine("Your amount according to State Bank of India policies after {0} years will be {1}.", years, sbi.CalculateSBIBalance(amount, years));
 
-            
+            // Hierarchical Inheritance
+
+            Console.WriteLine("\n-----Heirarchical Inheritance-----");
+
+            Nissan ns = new Nissan("GTR R35", "Nissan", 215740, 200);
+            ns.NissanCarDetails();
+
+            Console.WriteLine("-------------------------------");
+
+            Volkswagen vw = new Volkswagen("Polo GT TSI", "VolksWagen", 40500, 250);
+            vw.VWCarDetails();
         }
     }
 }
